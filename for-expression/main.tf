@@ -21,7 +21,6 @@ resource "aws_subnet" "my_subnet" {
     Name = "tf-0.12-for-example"
   }
 }
-
 resource "aws_instance" "ubuntu" {
   count = 3
   ami           = "ami-2e1ef954"
